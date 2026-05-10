@@ -1,0 +1,16 @@
+// This is a test to see if the go.mod in the root of this directory is active and I can code here.
+
+package main
+
+
+import
+(
+"fmt"
+)
+
+
+func main(){
+
+fmt.Println("Hello")
+
+}
