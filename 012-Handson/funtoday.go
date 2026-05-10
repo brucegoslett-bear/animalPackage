@@ -89,7 +89,7 @@ func main() {
 	}
 	hexloopcount := 0
 	fmt.Println("These are the things...")
-	for hexloopcount = 0; hexloopcount < repetitions; hexloopcount++ {
+	for hexloopcount = 0; hexloopcount < 2; hexloopcount++ {
 		fmt.Printf(" %T\t%v\t%b\t%#x\t\n", a1, a1, a1, a1)
 		fmt.Printf(" %T\t%v\t%b\t%#x\t\n", a2, a2, a2, a2)
 		fmt.Printf(" %T\t%v\t%b\t%#x\t\n", a3, a3, a3, a3)
